@@ -32,7 +32,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] dark:opacity-[0.05]"></div>
       </div>
 
-      <div className="container relative z-10">
+      <div className="relative z-10">
         <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
