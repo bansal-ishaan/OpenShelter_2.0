@@ -49,7 +49,7 @@ export default function SolutionSection() {
 
   return (
     <section id="identity-system" className="py-20">
-      <div className="container">
+      <div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -98,7 +98,7 @@ export default function GetStarted() {
     <div className="min-h-screen flex flex-col">
       <Navbar />
 
-      <main className="flex-1 container py-12">
+      <main className="flex-1 py-12">
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-8"
@@ -294,7 +294,7 @@ export default function GetStarted() {
         )}
       </main>
 
-      <div className="container py-6 border-t">
+      <div className="py-6 border-t">
         <div className="flex justify-between items-center">
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} OPENShelter. All rights reserved.

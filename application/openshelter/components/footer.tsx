@@ -4,8 +4,8 @@ import { Github, Twitter, Linkedin } from "lucide-react"
 export default function Footer() {
   return (
     <footer className="border-t bg-muted/30">
-      <div className="container py-12">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="py-12 ml-8">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="h-8 w-8 rounded-full bg-gradient-to-br from-teal-400 to-indigo-600 flex items-center justify-center text-white font-bold">

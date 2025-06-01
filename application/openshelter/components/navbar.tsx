@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
             <div className="relative h-8 w-8 overflow-hidden rounded-full bg-gradient-to-br from-teal-400 to-indigo-600">
@@ -98,7 +98,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Navigation Menu */}
-      <div className={cn("container pb-4 md:hidden", isOpen ? "block" : "hidden")}>
+      <div className={cn("pb-4 md:hidden", isOpen ? "block" : "hidden")}>
         <div className="flex flex-col space-y-3">
           <Link
             href="/"
